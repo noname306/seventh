@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color:#282829;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.header_link {
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.header_link:hover {
+    color:rgb(130, 130, 130); 
+}
+
+.header_link:active {
+    color: rgb(0, 0, 0);
+}
+
+.hero {
+    padding-top: 114px;
+    padding-bottom: 102px;
+}
+
+.hero_title {
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 93px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.textbox {
+    width: 743px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.hero_item {
+    width: 393px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+.hero_mintitle {
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 1000;
+    line-height: 23px;
+}
+
+.hero_text {
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.hero_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 114px;
+}
+
+.footer {
+    background-color:#282829;
+    padding: 20px 0;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer_link {
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.footer_link:hover {
+    color:rgb(130, 130, 130); 
+}
+
+.footer_link:active {
+    color: rgb(0, 0, 0);
+}
